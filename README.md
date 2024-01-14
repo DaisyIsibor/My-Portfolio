@@ -1,5 +1,34 @@
 ## MY Portfolio
 
+https://daisyisibor.github.io/My-Portfolio-assignment-2
+
+# Description
+
+Note: 
+Each screenshot. shows the image of how the page looks on the web. 
+
+My Portfolio contains information about me as a develper, it includes a home section that helps you navigate through each section of the page when clicked on.
+![menu page scheenshot](menu.png)
+
+The about me page, gives an Avatar of me and a short description about me as a developer in training as well as some of my experience in the tech world.
+
+![about me scheenshot](about.png)
+
+The Project page, include some of the project that I have worked on including the Portfolio. the image are representation of my projects each image direct you to different projects when clicked on.
+
+![project screenshot](project.png)
+
+The contact me page include my email, git hub profile as well as my phone number. 
+
+ Each image is also a representation of my contact information and direct you to different contact information when clicked on. 
+![contact information scheenshot](contact.png)
+ 
+
+below is the link to my portfolio
+
+https://daisyisibor.github.io/My-Portfolio-assignment-2
+
+
 ## Your Task
 
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 

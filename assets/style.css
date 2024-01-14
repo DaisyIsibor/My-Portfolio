@@ -1,0 +1,356 @@
+/*this sets the page to have neutral padding and margin except the ones assigned to it's class and the box size to boarder-box*/
+
+*{ 
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+/* this sets the padding and margin as below, also set all font-family on page to be as below*/
+
+.body{
+    padding:0px;
+    margin:0px;
+    display:flex;
+}
+
+
+
+.Menu{/* this is under the main tag on html and the 1st section tag, below include the image added as well as the below design asigned.*/
+    display:grid;
+     font-size:3em;
+    background-image:url("./Image/computer.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vmin;
+    background-position:center;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    text-align: center;
+    color:black;
+    background-color:burlywood;
+   
+   
+}
+
+.aboutme{/* this is the 2nd section tag with the img link added and below attribute that would be included on the section*/
+    color:black;
+    font-size:2em;
+    background-image:url('./Image/computer.jpg');
+   background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family:comic;
+    align-items:center;
+    flex-wrap:wrap;
+    display:flex;
+    width:100%;
+    min-height:120vh;
+    background-color:burlywood;
+    flex: 6 0 400px;
+   
+}
+   
+
+.float-left{/* below are the attribute given to the Avatar on the page which is also on the the float left attribute on HTML on the about me class*/
+    float:left;
+    margin-right: 10px;
+     margin-top:2%;
+    border-radius: 70%;
+    border: 8px dashed white;
+    background-color:yellow;
+    max-width:30%;
+    height:40%;
+    
+
+}
+    
+
+.aboutme h1{/* this is the design of the H1 attribute on the 2nd section tag on html, the size as well as the fonts*/
+    margin-bottom:-20px;
+    Font-size:2em;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    align-items:center;
+    flex-wrap:wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content:center;
+
+  
+}
+
+h6{/* this is also an attribute and design of the h6 tag on the 2nd section tag on html*/
+    Margin-bottom:70px;
+    text-align:center;
+   
+    font-family:geneva,sans-serif;
+    margin-top:2%;
+    font-size:25px;
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+
+}
+/* this gives design to the devtools listed  on the about me section*/
+.Devtools em{
+    Font-size:1.4vh;
+    background-color:black;
+    color:aqua;
+    border-radius:50%;
+    padding:20% 85%;
+    
+    justify-content:center;
+    max-width:90%;
+    height:auto;
+    align-items:flex-end;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content:center;
+    display:flex;
+}
+
+
+
+.Devtools{
+    font-family:'fahkwang',sans-serif;
+    margin-top:24%;
+    margin-left:80%;
+    display:inline-block;
+}
+
+.myproject
+{/*below is the attribute assigned to 'MY PROJECT" ON  html*/
+    color:white;
+    font-size:2em;
+    background-color:black;
+     background-size:cover;
+   text-align:center;
+    margin-bottom: auto;
+    justify-content:center;
+    width:100%;
+    min-height:70vh;
+    background-position:center;
+    position:relative;
+    display: block;
+    box-sizing:border-box; 
+   
+}
+/* this just states the max-width on the project page specifically should be 100%*/
+.myproject >*{
+    max-width:100%;
+}
+
+/* this is the design of the H1 attribute on the 3rd section tag on html, the size as well as the fonts*/
+.myproject h1{
+    margin-bottom: 20px;
+    Font-size:2em;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    align-items:center;
+    flex-wrap:wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content:center;
+    
+}
+/* this is more design to the image on the project section*/
+.float-right{
+    width:400px;
+    height:400px;
+    object-fit:cover;
+    flex:10 600px;
+    margin: 0 60px;
+    transition:1s;
+    box-shadow:0 0 8px 1px white;
+    border-radius:3%;
+    margin-top:5%;
+}
+/* this is extra design to each image on how the image should display when you hover, then it zooms out. this is for the image on the project section*/
+.float-right:hover{
+    transform:scale(1.2);
+    z-index:3;
+}
+
+/* this just states the max-width on the contact me page specifically should be 100%*/
+
+.contactinfo>*a{
+    max-width:100%;
+}
+
+/* this is the 4th section tag with the img link added and below attribute that would be included on the section*/
+.contactinfo{
+    background-repeat:no-repeat;
+    background-color:burlywood;
+    color:black;
+    background-image:url('./Image/computer.jpg');
+    font-size:2em;
+    background-color:black;
+     background-size:cover;
+   text-align:center;
+    margin-bottom: auto;
+    justify-content:center;
+    width:100%;
+    min-height:90vh;
+    background-position:center;
+    position:relative;
+    display: block;
+    box-sizing:border-box; 
+
+}
+
+    /* this is the design of the H1 attribute on the 4th section tag on html, the size as well as the fonts*/
+    margin-bottom:-20px;
+    .contactinfo h1{
+        margin-bottom: 20px;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        align-items:center;
+        flex-wrap:wrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        justify-content:center;
+        font-size:2em;
+
+    }
+/* this is more design to the image on the contact me section*/
+.connect{
+    object-fit:cover;
+    margin: 0 80px;
+    margin-top:5%;
+    width:400px;
+    height:400px;
+    transition:1s;
+  
+}
+/* this is extra design to each image on how the image should display when you hover, then it zooms out. this is for the image on the contact me section*/
+.connect:hover{
+    transform:scale(1.2);
+    z-index:3;
+}
+
+
+/* This is the footer */
+footer{
+    background-color:white;
+    color:black;
+    padding:1%;
+    height:1%;
+    margin:1%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content:center;
+    
+}
+
+/* These are the media queries for each section, this gives more instruction to the page on how the page should look when it gets to below Px assigned*/
+
+@media screen and(max-width:576px){
+    .menu{
+       
+        
+        flex-direction:column;
+        width:100%;
+    }
+    .aboutme{
+        
+       
+        flex-direction:column;
+       width:100;
+    }
+
+    .myproject{
+        
+        flex-direction:column;
+        width:100%;
+
+    } 
+    .contactinfo{
+
+        width:100%;
+        flex-direction:column;
+    }
+    .connect{
+        width:100%;
+    }
+    .Devtools em{
+        background:black;
+    }
+    .float-right{
+      width:100%;
+    }
+
+    .Devtools em{
+        font-size:30px;
+        height:30%;
+    }
+
+    .Devtools{
+        font-size:30px;
+        height:10%;
+        
+}
+
+}
+
+@media screen and(max-width:768px){
+    .Menu{
+        width:100%;
+        flex-direction: column;
+    }
+   .aboutme{
+    width:100%;
+    flex-direction:column;
+}
+.myproject{
+    width:100%;
+    flex-direction:column;
+}
+.contactinfo{
+    width:100%;
+    flex-direction:column;
+}
+.Devtools em{
+    font-size:50px;
+    height:40%;
+}
+.Devtools{
+    font-size:30px;
+    height:30%;
+    flex-wrap:wrap;
+}
+
+}
+
+@media screen and(max-width:992px){
+    .aboutme{
+        width:100%;
+        flex-direction:column;
+    }
+    .myproject{
+        width:100%;
+        flex-direction:column;
+    }
+    .contactinfo{
+        width:100%;
+        flex-direction:column;
+    }
+    .menu{
+        width:100%;
+        flex-direction:column;
+    }
+    .Devtools em{
+        font-size:50px;
+        height:40%;
+    }
+    .Devtools{
+        font-size:30px;
+        height:30%;
+        flex-wrap:wrap;
+}
+
+}
