@@ -7,7 +7,7 @@ https://daisyisibor.github.io/My-Portfolio-assignment-2
 Note: 
 Each screenshot. shows the image of how the page looks on the web. 
 
-My Portfolio contains information about me as a develper, it includes a home section that helps you navigate through each section of the page when clicked on.
+My Portfolio contains information about me as a developer, it includes a home section that helps you navigate through each section of the page when clicked on.
 ![menu page scheenshot](menu.png)
 
 The about me page, gives an Avatar of me and a short description about me as a developer in training as well as some of my experience in the tech world.
