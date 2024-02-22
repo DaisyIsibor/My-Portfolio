@@ -1,6 +1,6 @@
 ## MY Portfolio
 
-https://daisyisibor.github.io/My-Portfolio-assignment-2
+https://daisyisibor.github.io/My-Portfolio/
 
 # Description
 
